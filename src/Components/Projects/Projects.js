@@ -7,12 +7,22 @@ import picture3 from "../../images/3.png";
 const Projects = () => {
   return (
     <div className="">
-      <h2 className="text-5xl font-bold projects">
-        My Latest <span className="text-primary">Projects</span>
+      <h2
+        className="text-5xl font-bold projects"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        My Amazing <span className="text-primary">Works</span>
       </h2>
 
       <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 max-w-7xl mx-auto mt-20">
-        <div class="card w-96 glass">
+        <div
+          class="card w-96 glass "
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <figure>
             <a href="https://auto-parts-place.web.app" target="blank">
               <img className="img-siz" src={picture1} alt="" />
@@ -24,13 +34,15 @@ const Projects = () => {
               React || React-Router || Tailwind || Firebase || MongoDB ||
               DaisyUI ||
             </p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Learn now!</button>
-            </div>
           </div>
         </div>
 
-        <div class="card w-96 glass">
+        <div
+          class="card w-96 glass"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <figure>
             <a href="https://bike-bangladesh.web.app" target="blank">
               <img className="img-siz" src={picture2} alt="" />
@@ -39,13 +51,15 @@ const Projects = () => {
           <div class="card-body">
             <h2 class="text-3xl font-bold">Technology Used</h2>
             <p>React || React-Router || Bootstrap || Firebase || MongoDB ||</p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Learn now!</button>
-            </div>
           </div>
         </div>
 
-        <div class="card w-96 glass">
+        <div
+          class="card w-96 glass"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <figure>
             <a
               href=" https://wedding-photography-c1317.firebaseapp.com/"
@@ -57,9 +71,6 @@ const Projects = () => {
           <div class="card-body">
             <h2 class="text-3xl font-bold">Technology Used</h2>
             <p> React || React-Router || Bootstrap || Firebase || MongoDB ||</p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Learn now!</button>
-            </div>
           </div>
         </div>
       </div>
