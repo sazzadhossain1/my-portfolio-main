@@ -7,6 +7,8 @@ import { Navbar } from "./Components/Navbar/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Footer from "./Components/Footer/Footer";
+import AboutMe from "./Components/AboutMe/AboutMe";
 
 function App() {
   useEffect(() => {
@@ -18,9 +20,10 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/myresume" element={<MyResume></MyResume>}></Route>
+
         <Route path="/contact" element={<Contact></Contact>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

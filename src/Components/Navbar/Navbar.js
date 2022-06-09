@@ -43,11 +43,6 @@ export const Navbar = () => {
                   Contact
                 </a>
               </li>
-              <li>
-                <Link className="font" to="/myresume">
-                  My Resume
-                </Link>
-              </li>
             </ul>
           </div>
           <Link
@@ -73,11 +68,6 @@ export const Navbar = () => {
               >
                 Contact
               </a>
-            </li>
-            <li>
-              <Link className="font" to="/myresume">
-                My Resume
-              </Link>
             </li>
           </ul>
         </div>

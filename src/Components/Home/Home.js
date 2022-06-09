@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "../AboutMe/AboutMe";
 import Projects from "../Projects/Projects";
 import "./Home.css";
 
@@ -49,6 +50,7 @@ const Home = () => {
         </div>
       </div>
       <Projects></Projects>
+      <AboutMe></AboutMe>
     </div>
   );
 };
