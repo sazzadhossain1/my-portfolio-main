@@ -1,0 +1,14 @@
+.projects {
+  border-bottom: 3px solid orangered;
+  width: 500px;
+  margin: auto;
+
+  padding: 10px;
+}
+
+.img-siz {
+  height: 400px;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+}

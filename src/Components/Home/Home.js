@@ -23,7 +23,7 @@ const Home = () => {
               passionate and dedicated to my work.
             </p>
 
-            <button className="btn font wid">Hire Me</button>
+            <button className="btn font wid">Download Resume</button>
           </div>
         </div>
       </div>
