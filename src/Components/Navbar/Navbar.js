@@ -35,9 +35,13 @@ export const Navbar = () => {
               </li>
 
               <li>
-                <Link className="font" to="/contact">
+                <a
+                  className="font a-style"
+                  href="https://form.jotform.com/221593692553463"
+                  target="blank"
+                >
                   Contact
-                </Link>
+                </a>
               </li>
               <li>
                 <Link className="font" to="/myresume">
@@ -62,9 +66,13 @@ export const Navbar = () => {
             </li>
 
             <li>
-              <Link className="font" to="/contact">
+              <a
+                className="font a-style"
+                href="https://form.jotform.com/221593692553463"
+                target="blank"
+              >
                 Contact
-              </Link>
+              </a>
             </li>
             <li>
               <Link className="font" to="/myresume">
