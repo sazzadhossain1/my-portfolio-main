@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-
+.main-div {
+  background: url(https://dizme.vercel.app/img/slider/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  padding: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
