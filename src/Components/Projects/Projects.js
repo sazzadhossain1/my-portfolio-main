@@ -4,7 +4,6 @@ import picture1 from "../../images/1.png";
 import picture2 from "../../images/2.png";
 import picture3 from "../../images/3.png";
 import { Link } from "react-router-dom";
-import photo from "../../images/photo/2 (1).png";
 
 const Projects = () => {
   return (
@@ -90,7 +89,6 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-          <img src={photo} alt="" />
         </div>
       </div>
     </div>

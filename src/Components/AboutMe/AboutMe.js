@@ -3,7 +3,7 @@ import "./Aboutme.css";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="about-div">
       <h1 data-aos="fade-down-right" className="about text-5xl m-20">
         About <span className="text-primary"> Me</span>
       </h1>

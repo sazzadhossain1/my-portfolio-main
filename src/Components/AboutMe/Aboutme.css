@@ -1,3 +1,9 @@
+.about-div {
+  background: url(https://dizme.vercel.app/img/brushes/news/2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 .about {
   text-align: center;
   margin-top: 100px;
