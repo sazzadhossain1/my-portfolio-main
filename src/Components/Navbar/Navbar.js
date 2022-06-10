@@ -35,7 +35,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <Link className="font" to="/blog">
-                  Blogs
+                  Blog
                 </Link>
               </li>
 
@@ -66,7 +66,7 @@ export const Navbar = () => {
             </li>
             <li>
               <Link className="font" to="/blog">
-                Blogs
+                Blog
               </Link>
             </li>
 

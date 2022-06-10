@@ -39,6 +39,15 @@ const Projects = () => {
               <Link to="/details" className="button">
                 <button className="ml-12">Explore Me</button>
               </Link>
+              <button className="button">
+                <a
+                  href="https://github.com/sazzadhossain1/auto-parts-place-client"
+                  target="blank"
+                  alt=""
+                >
+                  GitHub Link
+                </a>
+              </button>
             </div>
           </div>
 
@@ -58,9 +67,18 @@ const Projects = () => {
               <p>
                 React || React-Router || Bootstrap || Firebase || MongoDB ||
               </p>
-              <Link to="/details" className="button">
+              <Link to="/details2" className="button">
                 <button className="ml-12">Explore Me</button>
               </Link>
+              <button className="button">
+                <a
+                  href="https://github.com/sazzadhossain1/bike-bangladesh-1"
+                  target="blank"
+                  alt=""
+                >
+                  GitHub Link
+                </a>
+              </button>
             </div>
           </div>
 
@@ -84,9 +102,18 @@ const Projects = () => {
                 {" "}
                 React || React-Router || Bootstrap || Firebase || MongoDB ||
               </p>
-              <Link to="/details" className="button">
+              <Link to="/detail3" className="button">
                 <button className="ml-12">Explore Me</button>
               </Link>
+              <button className="button">
+                <a
+                  href="https://github.com/sazzadhossain1/your-dream-photo-1"
+                  target="blank"
+                  alt=""
+                >
+                  GitHub Link
+                </a>
+              </button>
             </div>
           </div>
         </div>

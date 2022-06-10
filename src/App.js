@@ -7,10 +7,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Footer from "./Components/Footer/Footer";
-import AboutMe from "./Components/AboutMe/AboutMe";
 import Blog from "./Components/Blog/Blog";
 import Details from "./Components/Details/Details";
 import Skill from "./Components/Skill/Skill";
+import Service from "./Components/Service/Service";
+import Details2 from "./Components/Details2/Details2";
+import Detail3 from "./Components/Details3/Detail3";
 
 function App() {
   useEffect(() => {
@@ -26,7 +28,10 @@ function App() {
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/details" element={<Details></Details>}></Route>
+        <Route path="/details2" element={<Details2></Details2>}></Route>
+        <Route path="/detail3" element={<Detail3></Detail3>}></Route>
         <Route path="/skill" element={<Skill></Skill>}></Route>
+        <Route path="/service" element={<Service></Service>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

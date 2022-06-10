@@ -13,6 +13,7 @@ const Home = () => {
             data-aos="zoom-in-up"
             src="https://bryan.infinitysoftway.com/wp-content/uploads/2022/01/04.png"
             className="max-w-sm rounded-lg "
+            alt=""
           />
           <div className="mb-64">
             <h1
@@ -54,6 +55,7 @@ const Home = () => {
       <Projects></Projects>
       <AboutMe></AboutMe>
       <Skill></Skill>
+      {/* <Service></Service> */}
     </div>
   );
 };
