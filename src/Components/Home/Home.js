@@ -49,6 +49,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="parent-div"></div>
       <Projects></Projects>
       <AboutMe></AboutMe>
     </div>

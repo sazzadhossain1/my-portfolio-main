@@ -1,5 +1,5 @@
 .projects {
-  border-bottom: 3px solid orangered;
+  border-bottom: 3px solid rgb(255, 255, 255);
   width: 500px;
   margin: auto;
 
@@ -11,4 +11,21 @@
   width: 300px;
   margin: 20px;
   padding: 10px;
+}
+.button {
+  margin: auto;
+  border: 2px solid red;
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: rgba(255, 0, 34, 0.808);
+  border: 2px solid rgb(45, 17, 90);
+}
+
+.button:hover button {
+  font-weight: 600;
 }
