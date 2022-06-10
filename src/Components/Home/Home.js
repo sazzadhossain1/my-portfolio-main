@@ -1,6 +1,7 @@
 import React from "react";
 import AboutMe from "../AboutMe/AboutMe";
 import Projects from "../Projects/Projects";
+import Skill from "../Skill/Skill";
 import "./Home.css";
 
 const Home = () => {
@@ -52,6 +53,7 @@ const Home = () => {
       <div className="parent-div"></div>
       <Projects></Projects>
       <AboutMe></AboutMe>
+      <Skill></Skill>
     </div>
   );
 };

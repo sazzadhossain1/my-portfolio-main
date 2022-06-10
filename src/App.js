@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Blog from "./Components/Blog/Blog";
 import Details from "./Components/Details/Details";
+import Skill from "./Components/Skill/Skill";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/details" element={<Details></Details>}></Route>
+        <Route path="/skill" element={<Skill></Skill>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
