@@ -42,7 +42,7 @@ const Home = () => {
 
             <button className="btn font wid" data-aos="fade-up-right">
               <a
-                href=" https://drive.google.com/file/d/1qb_676kV6RIeTztZhFVFKXeajRhWLi0E/view"
+                href=" https://drive.google.com/file/d/1xxMQjLcyu49TfBunbBwNCTjkP1Ty3meS/view?usp=sharing"
                 target="blank"
               >
                 Download Resume
